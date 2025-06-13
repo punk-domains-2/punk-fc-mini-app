@@ -1,0 +1,24 @@
+{
+  "name": "punk-domains-fc-mini-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@farcaster/frame-sdk": "^0.0.63",
+    "@farcaster/frame-wagmi-connector": "^0.0.52",
+    "@popperjs/core": "^2.11.8",
+    "@tanstack/vue-query": ">=5.45.0",
+    "@wagmi/vue": "latest",
+    "nuxt": "^3.11.2",
+    "viem": "latest",
+    "vue": ">=3.4.21",
+    "vue-router": "^4.3.2"
+  }
+}
